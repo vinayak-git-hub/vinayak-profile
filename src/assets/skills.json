@@ -1,0 +1,22 @@
+[
+    {
+        "skill":"Javscript",
+        "proficiency": 90
+    },
+    {
+        "skill":"React",
+        "proficiency": 75
+    },
+    {
+        "skill":"Node",
+        "proficiency": 80
+    },
+    {
+        "skill":"Express",
+        "proficiency": 75
+    },
+    {
+        "skill":"Mongo",
+        "proficiency": 65
+    }
+]

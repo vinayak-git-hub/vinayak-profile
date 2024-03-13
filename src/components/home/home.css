@@ -1,0 +1,58 @@
+.main {
+    display: contents;
+}
+
+.main-content {
+    margin-top: 10%;
+}
+
+.hi {
+    width: 50%;
+    margin-left: 5%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 2s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+.headsup {
+    position: absolute;
+    margin: 0% 0% 0% 50%;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
+}
+
+.last-line {
+    width: 340px;
+    border-right: .15em solid orange;
+    animation:
+        blink-caret .75s step-end infinite;
+}
