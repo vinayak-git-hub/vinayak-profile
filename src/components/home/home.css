@@ -7,7 +7,7 @@
 }
 
 .hi {
-    width: 400px;
+    width: 50%;
     margin-left: 5%;
     font-family: "Lucida Console", "Courier New", monospace;
     overflow: hidden;
@@ -17,7 +17,7 @@
     letter-spacing: .15em;
     /* Adjust as needed */
     animation:
-        typing 1s steps(40, end),
+        typing 2s steps(40, end),
         blink-caret .75s step-end infinite;
 }
 

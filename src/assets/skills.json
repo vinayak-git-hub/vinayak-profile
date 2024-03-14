@@ -17,22 +17,6 @@
     },
     {
         "skill":"Mongo",
-        "proficiency": 70
-    },
-    {
-        "skill":"Java-Spring",
-        "proficiency": 75
-    },
-    {
-        "skill":"MySQL",
-        "proficiency": 85
-    },
-    {
-        "skill":"GraphQL",
-        "proficiency": 75
-    },
-    {
-        "skill":"Kafka",
-        "proficiency": 70
+        "proficiency": 65
     }
 ]
