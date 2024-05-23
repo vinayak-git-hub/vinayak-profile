@@ -5,7 +5,6 @@ import { IoHome } from "react-icons/io5";
 import { BsPersonWorkspace } from "react-icons/bs";
 import { SiAboutdotme } from "react-icons/si";
 import { VscFeedback } from "react-icons/vsc";
-import { MdOutlineAlternateEmail } from "react-icons/md";
 
 const Header = () => {
   return (
@@ -28,9 +27,6 @@ const Header = () => {
             </Nav.Link>
             <Nav.Link href="/feedback">
               <VscFeedback style={{marginLeft:"30px"}}/>
-            </Nav.Link>
-            <Nav.Link eventKey={2} href="/contact">
-              <MdOutlineAlternateEmail style={{marginLeft:"30px"}}/>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
